@@ -188,7 +188,7 @@
                 </div>
             </div>
         </div>
-        <div class="card transection-section">
+        <div class="card transaction-section">
             <div class="card-header">
                 <h3 class="card-title">Recent Transection</h3>
                 <div class="filters">
@@ -241,6 +241,30 @@
             </table>
         </div>
     </div>
+    <!-- Income and Expense button here -->
+     <div class="add-buttons">
+        <button class="fab fab-income" onclick="openIncomeModal()" title="add Income"><i class="fas fa-plus"></i></button>
+
+        <button class="fab fab-expense" onclick="openExpenseModal()" title="add Expense"><i class="fas fa-minus"></i></button>
+     </div>
+
+     <!-- Income Modal -->
+      <div id="incomeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Add Income</h2>
+                <button class="colose" onclick="closeModal('incomeModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="incomeForm" autocomplete="off">
+                    <div class="form-group">
+                        <label class="formlable">Amount</label>
+                        <input type="number" class="form-input" id="incomeAmount" placeholder="Enter Amount" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
     <script src="Expense_Tracker.JS"></script>
 </body>
 
