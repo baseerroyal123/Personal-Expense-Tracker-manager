@@ -107,7 +107,7 @@ body{
     padding: 0.25rem;
 }
 
-.Income-amount {
+.income-amount {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -181,7 +181,7 @@ body{
     margin-bottom: 0.5rem;
 }
 
-.progrres-bar {
+.progress-bar {
     height: 6px;
     background: #f3f4f6;
     border-radius: 3px;
@@ -189,7 +189,7 @@ body{
     width: 95%;
 }
 
-.progrres-fill {
+.progress-fill {
     height: 100%;
     background: #459f31;
     width: 50%;
